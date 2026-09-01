@@ -1,0 +1,19 @@
+{
+  "moeda": "EUR",
+  "taxaOutraLocalidade": 10,
+  "multiplicadoresUrgencia": {
+    "normal": 1,
+    "breve": 1.1,
+    "urgente": 1.25
+  },
+  "servicos": {
+    "tomada": { "minimo": 10, "maximo": 30, "adicionalMinimo": 12, "adicionalMaximo": 22, "observacao": "Estimativa para troca ou instalação simples." },
+    "interruptor": { "minimo": 30, "maximo": 50, "adicionalMinimo": 10, "adicionalMaximo": 20, "observacao": "Estimativa para substituição ou instalação simples." },
+    "luminaria": { "minimo": 35, "maximo": 60, "adicionalMinimo": 15, "adicionalMaximo": 30, "observacao": "Não inclui trabalhos especiais ou em altura." },
+    "novo_ponto": { "minimo": 55, "maximo": 95, "adicionalMinimo": 30, "adicionalMaximo": 55, "observacao": "A distância da cablagem pode alterar o preço." },
+    "rede": { "minimo": 45, "maximo": 80, "adicionalMinimo": 25, "adicionalMaximo": 45, "observacao": "Estimativa para pequeno trabalho de rede doméstica." },
+    "quadro": { "requerAvaliacao": true, "destaque": "Visita", "observacao": "Trabalhos no quadro exigem avaliação técnica." },
+    "avaria": { "requerAvaliacao": true, "observacao": "Avarias elétricas exigem diagnóstico no local." },
+    "outro": { "requerAvaliacao": true, "observacao": "Este serviço será analisado antes de apresentar um preço." }
+  }
+}
